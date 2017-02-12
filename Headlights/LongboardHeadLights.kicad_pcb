@@ -3,7 +3,7 @@
   (general
     (links 30)
     (no_connects 0)
-    (area 114.910601 86.039999 202.465001 102.839501)
+    (area 126.114999 86.039999 202.465001 96.985001)
     (thickness 1.6)
     (drawings 9)
     (tracks 179)
@@ -332,6 +332,11 @@
       (net 1 VCC))
     (pad 2 smd rect (at 2.55 0 180) (size 0.9 1.4) (layers F.Cu F.Paste F.Mask)
       (net 7 "Net-(D4-Pad2)"))
+    (model Diodes_SMD.3dshapes/SMA_Standard.wrl
+      (at (xyz 0.04 0 0))
+      (scale (xyz 0.25 0.25 0.25))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module Connect:GS3 (layer F.Cu) (tedit 57F47276) (tstamp 57F4701B)
@@ -617,6 +622,11 @@
       (net 6 "Net-(C5-Pad2)"))
     (pad 2 smd rect (at 1.85 0) (size 1.4 4.2) (layers F.Cu F.Paste F.Mask)
       (net 7 "Net-(D4-Pad2)"))
+    (model Inductors.3dshapes/inductor_smd_4.8x2.8mm.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 0.9 0.9 0.9))
+      (rotate (xyz 0 0 90))
+    )
   )
 
   (gr_text "WARNING: BRIGHT!" (at 179.9336 95.5548) (layer F.SilkS)
