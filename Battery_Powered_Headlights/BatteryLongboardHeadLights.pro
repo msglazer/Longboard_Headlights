@@ -1,4 +1,4 @@
-update=10/30/2017 10:13:25 PM
+update=10/31/2017 9:50:14 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -61,3 +61,4 @@ LibName29=atmel
 LibName30=contrib
 LibName31=valves
 LibName32=C:/Users/matthew/Documents/GitHub/Longboard_Headlights/Light_Parts
+LibName33=C:/Users/Matthew/Documents/GitHub/Kicad_Parts/Global_Parts
