@@ -11,6 +11,6 @@ Headlights and Taillights for Longboard project
 2X White/Red 1W LED's powered by an 18650
 3+ Hour battery life
 
+#### Common features and Other Info:
 Wired version is capable of dimming control through microcontroller, should also be able to make it flash this way as well
-
 Both designs will be mounted through a truck riser. Wired version uses a 1/2" riser.
