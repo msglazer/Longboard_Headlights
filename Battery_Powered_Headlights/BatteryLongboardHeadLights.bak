@@ -53,7 +53,7 @@ U 1 1 57EF14EB
 P 10100 4050
 F 0 "R6" V 10180 4050 50  0000 C CNN
 F 1 "0.3" V 10100 4050 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 10030 4050 50  0001 C CNN
+F 2 "Resistors_SMD:R_0805" V 10030 4050 50  0001 C CNN
 F 3 "" H 10100 4050 50  0000 C CNN
 	1    10100 4050
 	1    0    0    -1  
@@ -224,7 +224,7 @@ U 1 1 59F9D34F
 P 2250 3950
 F 0 "Q1" H 2250 4300 50  0000 C CNN
 F 1 "DMN2040LTS-13" H 2250 4200 50  0000 C CNN
-F 2 "Housings_SSOP:TSSOP-8_4.4x3mm_Pitch0.65mm" H 2400 3600 50  0001 C CNN
+F 2 "Housings_DFN_QFN:DFN-8-1EP_3x3mm_Pitch0.65mm" H 2400 3600 50  0001 C CNN
 F 3 "DOCUMENTATION" H 2250 3700 50  0001 C CNN
 	1    2250 3950
 	1    0    0    -1  
@@ -394,16 +394,9 @@ F 3 "" H 3000 2650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	700  2700 3000 2700
-Wire Wire Line
 	1150 2700 1150 2750
-Connection ~ 1150 2700
 Wire Wire Line
 	3000 2700 3000 2650
-Text HLabel 700  2750 3    60   Input ~ 0
-VBAT_POS
-Wire Wire Line
-	700  2750 700  2700
 Text HLabel 3900 3350 0    60   Input ~ 0
 USB_IN
 Connection ~ 4350 3350
@@ -454,8 +447,6 @@ Text Notes 2450 5700 0    60   ~ 0
 Connectors
 Text HLabel 950  6550 2    60   Input ~ 0
 VBAT_NEG
-Text HLabel 950  6050 2    60   Input ~ 0
-VBAT_POS
 $Comp
 L Battery_Cell BT1
 U 1 1 59FA908D
@@ -467,8 +458,6 @@ F 3 "" V 800 6410 50  0001 C CNN
 	1    800  6350
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	950  6050 800  6050
 Wire Wire Line
 	800  6050 800  6150
 Wire Wire Line
@@ -662,14 +651,29 @@ Wire Wire Line
 	4050 3700 4050 3750
 Connection ~ 4350 3750
 $Comp
-L +BATT #PWR?
+L +BATT #PWR09
 U 1 1 5A07E3B7
 P 8000 2750
-F 0 "#PWR?" H 8000 2600 50  0001 C CNN
+F 0 "#PWR09" H 8000 2600 50  0001 C CNN
 F 1 "+BATT" H 8015 2923 50  0000 C CNN
 F 2 "" H 8000 2750 50  0001 C CNN
 F 3 "" H 8000 2750 50  0001 C CNN
 	1    8000 2750
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	1150 2700 3000 2700
+$Comp
+L +BATT #PWR012
+U 1 1 5A07FB93
+P 800 6050
+F 0 "#PWR012" H 800 5900 50  0001 C CNN
+F 1 "+BATT" H 815 6223 50  0000 C CNN
+F 2 "" H 800 6050 50  0001 C CNN
+F 3 "" H 800 6050 50  0001 C CNN
+	1    800  6050
+	1    0    0    -1  
+$EndComp
+Text Notes 1650 4300 0    60   ~ 0
+Change to: DMN2028UFDH-7
 $EndSCHEMATC
