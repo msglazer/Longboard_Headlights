@@ -1,4 +1,4 @@
-update=1/22/2018 11:10:33 PM
+update=1/23/2018 12:10:37 AM
 version=1
 last_client=kicad
 [pcbnew]
@@ -60,3 +60,5 @@ LibName28=contrib
 LibName29=valves
 LibName30=C:/Users/Matthew/Documents/GitHub/Longboard_Headlights/Light_Parts
 LibName31=C:/Users/Matthew/Documents/GitHub/Kicad_Parts/Global_Parts
+LibName32=Power_Management
+LibName33=Switch
