@@ -1,17 +1,16 @@
 # Longboard_Headlights
 Headlights and Taillights for Longboard project
 
-####Headlight Module:
+### Wired Headlight/Tail-light Module:
 
-3x White 2W LED's w/ brightness control 
+2X White/Red 1W LED's powered by E-board battery pack
+12S(50.4V) Tolerant
 
-####Taillight Module:
+### Battery Headlight/Tail-light Module:
 
-2x Red 2W LED's w/ brightness control
-1x Yellow 2W LED w/ brightness control
+2X White/Red 1W LED's powered by an 18650
+3+ Hour battery life
 
-Each module can be controlled externally using a DC or PWM signal, or through the option of the onboard voltage divider (much less control)
-Both require ~3W@12V 
+Wired version is capable of dimming control through microcontroller, should also be able to make it flash this way as well
 
-Two modules in front and two in the rear. Rear modules will allow for turn signal capability as the yellow LED is driven seperately from the red LED.
-These should end up being plenty bright for use 
+Both designs will be mounted through a truck riser. Wired version uses a 1/2" riser.
